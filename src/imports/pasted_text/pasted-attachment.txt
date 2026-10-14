@@ -1,0 +1,2318 @@
+# EVENTHUB — COMPLETE USER-FRIENDLY WEBSITE & CLICKABLE PROTOTYPE
+
+Design and prototype the complete **EventHub — Online Marketplace for Event Services** based strictly on the provided EventHub requirements.
+
+The goal is to create a **professional, modern, simple, user-friendly and fully connected Figma website prototype** for an FYP presentation.
+
+Do not create random extra features.
+
+Do not overload screens with unnecessary demo data.
+
+Use only enough realistic demo data to clearly demonstrate the platform.
+
+The final result must feel like a real usable product.
+
+---
+
+# 1. CORE IDEA
+
+EventHub is an event-centric marketplace.
+
+A buyer/event organizer:
+
+Create Event
+→ Add Requirements
+→ Find Service Providers
+→ Compare Providers
+→ Request Quote
+→ Receive Quote
+→ Communicate
+→ Accept Quote
+→ Book Provider
+→ Pay
+→ Complete Event
+→ Review Provider
+
+A seller/service provider:
+
+Register
+→ Create Business Profile
+→ Add Services
+→ Add Packages
+→ Add Portfolio
+→ Set Availability
+→ Receive Request
+→ Review Event Requirements
+→ Send Quote
+→ Receive Booking
+→ Complete Service
+→ Receive Earnings
+→ Get Review
+
+Admin:
+
+Manage Users
+→ Sellers
+→ Verification
+→ Categories
+→ Services
+→ Events
+→ Bookings
+→ Payments
+→ Commissions
+→ Reviews
+→ Disputes
+→ Reports
+→ Promotions
+→ Subscriptions
+→ Advertisements
+
+The **Event must remain the central object** in the buyer experience.
+
+---
+
+# 2. MOST IMPORTANT DESIGN GOAL — USER FRIENDLY
+
+Make every screen extremely easy to understand.
+
+A new user should immediately know:
+
+* Where am I?
+* What can I do here?
+* What should I do next?
+* What happened after I clicked a button?
+
+Use:
+
+* Clear headings
+* Short descriptions
+* Simple navigation
+* Large readable buttons
+* Consistent icons
+* Clear status badges
+* Logical forms
+* Helpful empty states
+* Breadcrumbs where useful
+* Progress indicators
+* Confirmation messages
+
+Avoid:
+
+* Complicated navigation
+* Too many buttons
+* Huge forms on one screen
+* Unnecessary popups
+* Excessive animations
+* Excessive colors
+* Excessive cards
+* Information overload
+
+---
+
+# 3. INFORMATION ARCHITECTURE
+
+Create four connected areas:
+
+## PUBLIC WEBSITE
+
+* Home
+* Services
+* Categories
+* Search
+* Service Details
+* Provider Profile
+* How It Works
+* About
+* Contact
+* Login
+* Signup
+
+## BUYER PORTAL
+
+* Dashboard
+* My Events
+* Create Event
+* Event Workspace
+* Find Services
+* Compare Providers
+* Request Quote
+* Requests & Offers
+* Messages
+* Bookings
+* Booking Details
+* Payment
+* Reviews
+* Notifications
+* Profile
+* Settings
+
+## SELLER PORTAL
+
+* Dashboard
+* Business Profile
+* Services
+* Add/Edit Service
+* Packages
+* Portfolio
+* Availability
+* Customer Requests
+* Request Details
+* Create Quote
+* Quotations
+* Bookings
+* Messages
+* Earnings
+* Reviews
+* Analytics
+* Promotions
+* Subscription
+* Notifications
+* Settings
+
+## ADMIN PORTAL
+
+* Dashboard
+* Users
+* Buyers
+* Sellers
+* Verification
+* Categories
+* Services/Listings
+* Events
+* Bookings
+* Payments
+* Commissions
+* Reviews
+* Disputes
+* Reports
+* Featured Listings
+* Subscriptions
+* Advertisements
+* Settings
+
+---
+
+# 4. DESIGN SYSTEM
+
+First create a complete EventHub design system.
+
+Use a modern professional SaaS/marketplace style.
+
+Typography:
+
+Use Inter or Manrope.
+
+Create:
+
+* H1
+* H2
+* H3
+* H4
+* Body
+* Small
+* Caption
+* Button
+* Label
+
+Create color tokens:
+
+* Primary
+* Secondary
+* Accent
+* Background
+* Surface
+* Border
+* Text
+* Muted
+* Success
+* Warning
+* Error
+* Info
+
+Use a clean light interface.
+
+Use dark/navy elements for strong branding.
+
+Use one consistent accent color.
+
+Avoid excessive gradients.
+
+Use subtle shadows and rounded cards.
+
+---
+
+# 5. REUSABLE COMPONENTS
+
+Create reusable components before designing screens.
+
+Components:
+
+* Navbar
+* Sidebar
+* Footer
+* Buttons
+* Inputs
+* Search
+* Dropdown
+* Select
+* Date Picker
+* Calendar
+* Tabs
+* Cards
+* Tables
+* Modals
+* Toasts
+* Status Badges
+* Rating
+* Avatar
+* Provider Card
+* Service Card
+* Event Card
+* Quote Card
+* Booking Card
+* Review Card
+* Package Card
+* Chat Message
+* Notification
+* Pagination
+* Stepper
+* Empty State
+* Loading State
+* Error State
+* Confirmation State
+
+Create component variants for:
+
+Default
+Hover
+Active
+Disabled
+Loading
+Error
+Success
+
+---
+
+# 6. PUBLIC HOME PAGE
+
+Create a clean professional landing page.
+
+Header:
+
+EventHub logo
+
+Navigation:
+
+Home
+Services
+Categories
+How It Works
+About
+Contact
+
+Actions:
+
+Login
+Sign Up
+Create Event
+
+Hero:
+
+Headline:
+
+**"Plan Your Event. Find the Right Services. Book With Confidence."**
+
+Short description.
+
+Search:
+
+Event Type
+Location
+Date
+
+CTA:
+
+**Find Services**
+
+Show a professional event image.
+
+Below hero:
+
+Popular Categories
+
+Use only 6 categories:
+
+* Wedding
+* Corporate
+* Birthday
+* Conference
+* Concert
+* Exhibition
+
+Featured Services:
+
+Show only 4 service cards.
+
+Featured Providers:
+
+Show only 3 provider cards.
+
+How It Works:
+
+1. Create Event
+2. Find Providers
+3. Request Quotes
+4. Book & Pay
+
+Final CTA:
+
+**Start Planning Your Event**
+
+Footer.
+
+Do not add excessive content.
+
+---
+
+# 7. LOGIN
+
+Create a premium simple Login screen.
+
+Left side:
+
+EventHub branding / event image.
+
+Right side:
+
+Welcome Back
+
+Email
+
+Password
+
+Remember Me
+
+Forgot Password?
+
+Login
+
+OR
+
+Continue with Google
+
+Don't have an account?
+
+Create Account
+
+Prototype interaction:
+
+Login → role-based dashboard.
+
+---
+
+# 8. SIGNUP
+
+Create a simple role-selection page.
+
+Title:
+
+**"How will you use EventHub?"**
+
+Two large cards:
+
+### Event Organizer
+
+Plan events and book services.
+
+Button:
+
+Continue as Organizer
+
+### Service Provider
+
+Offer services and receive bookings.
+
+Button:
+
+Continue as Provider
+
+---
+
+# 9. ORGANIZER SIGNUP
+
+Use a clean multi-step form.
+
+Step 1:
+
+* Full Name
+* Email
+* Phone
+
+Step 2:
+
+* Password
+* City
+* Organization optional
+
+Step 3:
+
+Review
+
+CTA:
+
+Create Account
+
+Success:
+
+Account Created
+
+CTA:
+
+Go to Dashboard
+
+---
+
+# 10. PROVIDER SIGNUP
+
+Use a simple multi-step form.
+
+Step 1:
+
+* Business Name
+* Contact Person
+* Email
+* Phone
+
+Step 2:
+
+* City
+* Address
+* Primary Category
+* Services
+
+Step 3:
+
+* Business Description
+* Experience
+* Service Locations
+
+Step 4:
+
+* Website/Social Links
+* Verification Documents optional
+
+Success:
+
+Business Account Created
+
+CTA:
+
+Complete Business Profile
+
+---
+
+# 11. BUYER DASHBOARD
+
+Keep dashboard simple.
+
+Top:
+
+"Good morning, [Name]"
+
+Quick actions:
+
+Create Event
+Find Services
+
+Statistics:
+
+* Upcoming Events
+* Pending Requests
+* Active Bookings
+
+Show only:
+
+* One upcoming event
+* Two recent requests
+* Two recent bookings
+
+Sidebar:
+
+Dashboard
+My Events
+Find Services
+Requests & Offers
+Messages
+Bookings
+Payments
+Reviews
+Notifications
+Profile
+Settings
+
+---
+
+# 12. CREATE EVENT
+
+Use a 4-step simple wizard.
+
+Progress:
+
+1 Event Details
+2 Budget
+3 Services
+4 Review
+
+## STEP 1
+
+Event Name
+
+Category
+
+Date
+
+Time
+
+Location
+
+Expected Guests
+
+Description
+
+## STEP 2
+
+Estimated Budget
+
+## STEP 3
+
+Select required services.
+
+Show only relevant cards:
+
+Venue
+Catering
+Photography
+Videography
+Sound
+Lighting
+Decoration
+Transportation
+Security
+Branding
+
+## STEP 4
+
+Review everything.
+
+CTA:
+
+**Create Event**
+
+Success screen:
+
+**Your event has been created.**
+
+CTA:
+
+**Open Event Workspace**
+
+---
+
+# 13. EVENT WORKSPACE
+
+This is the most important buyer screen.
+
+Header:
+
+Event Name
+
+Status:
+
+Planning
+
+Show:
+
+Date
+Location
+Guests
+Budget
+
+Progress:
+
+Event Created
+→ Finding Services
+→ Quotes
+→ Bookings
+→ Completed
+
+Required Services.
+
+For each selected service show:
+
+Service name
+
+Provider status:
+
+Not Selected / Quote Received / Booked
+
+CTA:
+
+**Find Provider**
+
+Below:
+
+Recommended Providers
+
+Show only 3 providers.
+
+---
+
+# 14. FIND SERVICES
+
+Show providers relevant to the selected event/service.
+
+Top:
+
+Event context:
+
+Corporate Conference
+500 Guests
+October 20
+Peshawar
+
+Filters:
+
+Category
+Location
+Price
+Rating
+Availability
+Verified
+
+Show only 4 provider cards.
+
+Each card:
+
+Image
+Business Name
+Verified
+Rating
+Location
+Starting Price
+
+Actions:
+
+View Profile
+Request Quote
+
+---
+
+# 15. PROVIDER PROFILE
+
+Create a clean profile.
+
+Cover image.
+
+Logo.
+
+Business name.
+
+Verified badge.
+
+Rating.
+
+Location.
+
+Experience.
+
+About.
+
+Services.
+
+Portfolio.
+
+Packages.
+
+Availability.
+
+Reviews.
+
+Actions:
+
+Request Quote
+
+Message
+
+---
+
+# 16. COMPARE PROVIDERS
+
+Allow buyer to select 2–3 providers.
+
+Compare:
+
+Provider
+Rating
+Price
+Experience
+Availability
+Location
+Verification
+
+Do not make the table unnecessarily large.
+
+CTA:
+
+Request Quote
+
+---
+
+# 17. REQUEST QUOTE
+
+Use a simple form.
+
+Event
+
+Service
+
+Date
+
+Location
+
+Guests
+
+Budget
+
+Requirements
+
+Additional Notes
+
+CTA:
+
+**Send Request**
+
+Success modal:
+
+**Quote request sent successfully.**
+
+---
+
+# 18. REQUESTS & OFFERS
+
+Tabs:
+
+Pending
+Quotes
+Accepted
+Declined
+
+Show limited demo data.
+
+Quote card:
+
+Provider
+Service
+Event
+Price
+Date
+Status
+
+Actions:
+
+View Quote
+Message
+Accept
+Decline
+
+---
+
+# 19. QUOTE DETAILS
+
+Show:
+
+Provider
+
+Service
+
+Event
+
+Date
+
+Price
+
+Inclusions
+
+Notes
+
+Terms
+
+Buttons:
+
+Accept Quote
+Decline
+Message
+
+When accepted:
+
+Show confirmation modal:
+
+**Accept this quotation and create booking?**
+
+Confirm.
+
+Then navigate to Booking Confirmation.
+
+---
+
+# 20. MESSAGES
+
+Create simple real-time chat interface.
+
+Left:
+
+Conversation list.
+
+Right:
+
+Chat.
+
+Top:
+
+Provider
+Event
+Service
+
+Bottom:
+
+Message input
+Attachment
+Send
+
+Keep messages short.
+
+---
+
+# 21. BOOKING
+
+Show:
+
+Booking ID
+
+Provider
+
+Service
+
+Event
+
+Date
+
+Location
+
+Amount
+
+Status
+
+Timeline:
+
+Requested
+Confirmed
+In Progress
+Completed
+
+CTA:
+
+Proceed to Payment
+
+---
+
+# 22. PAYMENT
+
+Keep payment simple.
+
+Order summary.
+
+Provider.
+
+Service.
+
+Event.
+
+Amount.
+
+Platform fee:
+
+**Rs. 0**
+
+Payment options:
+
+Card
+JazzCash
+EasyPaisa
+Bank Transfer
+
+CTA:
+
+**Pay & Confirm**
+
+---
+
+# 23. PAYMENT SUCCESS
+
+Large success state.
+
+✓ Payment Successful
+
+Booking ID
+
+Provider
+
+Service
+
+Amount
+
+Event
+
+CTA:
+
+View Booking
+
+---
+
+# 24. REVIEW
+
+After completion:
+
+Provider name.
+
+★★★★★
+
+Rating
+
+Review text.
+
+CTA:
+
+Submit Review
+
+Success:
+
+Thank you for your review.
+
+---
+
+# 25. SELLER DASHBOARD
+
+Use a separate seller-focused layout.
+
+Statistics:
+
+* New Requests
+* Upcoming Bookings
+* Earnings
+* Rating
+
+Quick Actions:
+
+Add Service
+View Requests
+Manage Availability
+
+Show:
+
+2 recent requests
+
+2 upcoming bookings
+
+Small revenue chart.
+
+Do not overcrowd.
+
+---
+
+# 26. BUSINESS PROFILE
+
+Show editable:
+
+Logo
+
+Cover
+
+Business Name
+
+Description
+
+Contact
+
+Address
+
+Service Areas
+
+Experience
+
+Website
+
+Social Links
+
+Verification status
+
+CTA:
+
+Save Changes
+
+---
+
+# 27. SERVICES
+
+Show provider's services.
+
+Use only 3 demo services.
+
+Each card:
+
+Service
+Category
+Starting Price
+Status
+
+Actions:
+
+Edit
+Delete
+
+CTA:
+
+Add Service
+
+---
+
+# 28. ADD SERVICE
+
+Fields:
+
+Service Name
+
+Category
+
+Description
+
+Starting Price
+
+Pricing Type
+
+Location
+
+Images
+
+Features
+
+Terms
+
+CTA:
+
+Save Service
+
+Success:
+
+Service Added
+
+---
+
+# 29. PACKAGES
+
+Show:
+
+Basic
+Standard
+Premium
+
+Each package:
+
+Price
+
+3–5 key inclusions
+
+CTA:
+
+Edit
+
+Allow:
+
+Add Package
+
+---
+
+# 30. PORTFOLIO
+
+Clean image grid.
+
+Use only 6 demo images.
+
+Each:
+
+Project name
+
+Event type
+
+Actions:
+
+Edit
+Delete
+
+CTA:
+
+Add Project
+
+---
+
+# 31. AVAILABILITY
+
+Calendar.
+
+Legend:
+
+Available
+Booked
+Unavailable
+
+Use only a few demo booking dates.
+
+Allow:
+
+Set Available
+
+Set Unavailable
+
+---
+
+# 32. CUSTOMER REQUESTS
+
+Show limited request cards.
+
+Each:
+
+Event
+Buyer
+Date
+Location
+Guests
+Budget
+Service
+
+Actions:
+
+View
+Send Quote
+Decline
+Message
+
+---
+
+# 33. REQUEST DETAILS
+
+Show complete event requirements.
+
+CTA:
+
+Send Quote
+
+Decline
+
+Message
+
+---
+
+# 34. CREATE QUOTE
+
+Fields:
+
+Service
+
+Price
+
+Inclusions
+
+Notes
+
+Terms
+
+Valid Until
+
+Show live quote preview.
+
+CTA:
+
+Send Quote
+
+---
+
+# 35. SELLER BOOKINGS
+
+Tabs:
+
+Pending
+Confirmed
+In Progress
+Completed
+
+Show limited booking data.
+
+Booking:
+
+Event
+Buyer
+Service
+Date
+Amount
+Status
+
+---
+
+# 36. EARNINGS
+
+Statistics:
+
+Total Earnings
+
+Pending
+
+Net Earnings
+
+EventHub Commission
+
+Transaction list.
+
+Use one clear example:
+
+Booking:
+
+Rs.100,000
+
+Commission:
+
+10%
+
+EventHub:
+
+Rs.10,000
+
+Provider:
+
+Rs.90,000
+
+---
+
+# 37. REVIEWS
+
+Show:
+
+Average Rating
+
+Total Reviews
+
+Rating Breakdown
+
+Only 3 sample reviews.
+
+---
+
+# 38. ANALYTICS
+
+Keep analytics understandable.
+
+Show:
+
+Profile Views
+
+Service Views
+
+Requests
+
+Bookings
+
+Revenue
+
+Conversion
+
+Use:
+
+One revenue chart
+
+One booking chart
+
+One conversion summary
+
+---
+
+# 39. PROMOTIONS
+
+Show:
+
+Featured Listing
+
+Promote Service
+
+Premium Leads
+
+Keep this page simple.
+
+---
+
+# 40. SUBSCRIPTION
+
+Three plans:
+
+Free
+
+Professional
+
+Business
+
+Show simple feature comparison.
+
+CTA:
+
+Upgrade
+
+---
+
+# 41. ADMIN LOGIN
+
+Separate admin login.
+
+Email
+
+Password
+
+Login
+
+---
+
+# 42. ADMIN DASHBOARD
+
+Show:
+
+Total Users
+
+Total Sellers
+
+Total Events
+
+Total Bookings
+
+Revenue
+
+Commission
+
+Pending Verification
+
+Disputes
+
+Charts:
+
+User Growth
+
+Bookings
+
+Revenue
+
+Use limited demo data.
+
+---
+
+# 43. ADMIN USER MANAGEMENT
+
+Table:
+
+Name
+
+Role
+
+Email
+
+Status
+
+Actions
+
+View
+
+Edit
+
+Suspend
+
+Delete
+
+---
+
+# 44. SELLER MANAGEMENT
+
+Table:
+
+Business
+
+Owner
+
+Category
+
+Rating
+
+Verification
+
+Status
+
+Actions
+
+---
+
+# 45. VERIFICATION
+
+Show verification requests.
+
+Business
+
+Owner
+
+Documents
+
+Date
+
+Status
+
+Actions:
+
+View
+
+Approve
+
+Reject
+
+---
+
+# 46. CATEGORY MANAGEMENT
+
+Two sections:
+
+Event Categories
+
+Service Categories
+
+Actions:
+
+Add
+
+Edit
+
+Delete
+
+Activate/Deactivate
+
+---
+
+# 47. SERVICE MODERATION
+
+Show services.
+
+Provider
+
+Service
+
+Category
+
+Price
+
+Status
+
+Actions:
+
+View
+
+Approve
+
+Reject
+
+Hide
+
+---
+
+# 48. EVENT MANAGEMENT
+
+Show events.
+
+Event
+
+Organizer
+
+Category
+
+Date
+
+Location
+
+Budget
+
+Status
+
+---
+
+# 49. BOOKING MANAGEMENT
+
+Show:
+
+Booking ID
+
+Buyer
+
+Seller
+
+Service
+
+Event
+
+Amount
+
+Commission
+
+Status
+
+---
+
+# 50. PAYMENTS
+
+Show:
+
+Transaction
+
+Booking
+
+Buyer
+
+Seller
+
+Amount
+
+Payment Method
+
+Status
+
+Date
+
+---
+
+# 51. COMMISSIONS
+
+Show:
+
+Total Booking Value
+
+EventHub Commission
+
+Seller Earnings
+
+Use simple chart.
+
+---
+
+# 52. REVIEWS MODERATION
+
+Show reviews.
+
+Buyer
+
+Seller
+
+Rating
+
+Comment
+
+Status
+
+Actions:
+
+Approve
+
+Hide
+
+Delete
+
+---
+
+# 53. DISPUTES
+
+Show:
+
+Dispute ID
+
+Booking
+
+Buyer
+
+Seller
+
+Reason
+
+Status
+
+Actions:
+
+View
+
+Resolve
+
+Close
+
+---
+
+# 54. REPORTS
+
+Create simple reporting page.
+
+Reports:
+
+Users
+
+Events
+
+Bookings
+
+Revenue
+
+Commission
+
+Popular Services
+
+Use filters:
+
+7 Days
+30 Days
+3 Months
+1 Year
+
+---
+
+# 55. FEATURED LISTINGS
+
+Admin can:
+
+Feature Provider
+
+Feature Service
+
+Remove Feature
+
+Show promotion period.
+
+---
+
+# 56. SUBSCRIPTIONS ADMIN
+
+Show:
+
+Plan
+
+Active Sellers
+
+Revenue
+
+Status
+
+Manage plans.
+
+---
+
+# 57. ADVERTISEMENTS
+
+Show:
+
+Seller
+
+Campaign
+
+Start Date
+
+End Date
+
+Status
+
+Actions:
+
+Approve
+
+Reject
+
+Pause
+
+---
+
+# 58. SETTINGS
+
+Create settings screens for:
+
+Account
+
+Security
+
+Notifications
+
+Payments
+
+Commission
+
+Subscriptions
+
+Platform Settings
+
+---
+
+# 59. RESPONSIVE DESIGN
+
+Design desktop first.
+
+Then create responsive mobile versions for the most important screens.
+
+Mobile screens:
+
+* Home
+* Login
+* Signup
+* Buyer Dashboard
+* Create Event
+* Event Workspace
+* Provider Search
+* Provider Details
+* Request Quote
+* Messages
+* Booking
+* Payment
+* Seller Dashboard
+* Customer Request
+
+Use mobile bottom navigation where appropriate.
+
+---
+
+# 60. LIMITED DEMO DATA RULE
+
+IMPORTANT:
+
+Do NOT fill the whole application with huge amounts of dummy content.
+
+Use realistic but minimal demo data.
+
+Recommended maximum:
+
+* 3–4 providers
+* 3–4 services
+* 2–3 events
+* 2–3 bookings
+* 2–3 quotes
+* 3 reviews
+* 3 portfolio projects
+* 3 packages
+
+The purpose of demo data is only to demonstrate the UI.
+
+Do not create hundreds of records.
+
+---
+
+# 61. EMPTY STATES
+
+Every major list must also have an empty state.
+
+Examples:
+
+No Events
+
+"No events yet. Create your first event."
+
+CTA:
+
+Create Event
+
+No Bookings
+
+"No bookings yet."
+
+CTA:
+
+Find Services
+
+No Quotes
+
+"No quotations received yet."
+
+No Messages
+
+"No conversations yet."
+
+No Portfolio
+
+"Showcase your work by adding a project."
+
+CTA:
+
+Add Project
+
+---
+
+# 62. LOADING & ERROR STATES
+
+Create reusable:
+
+Loading
+
+Skeleton
+
+Error
+
+Retry
+
+Success
+
+Confirmation
+
+Do not create unnecessary separate pages if a modal/state is enough.
+
+---
+
+# 63. PROTOTYPING — VERY IMPORTANT
+
+Do NOT only design static screens.
+
+Create a **fully clickable Figma prototype**.
+
+Every major CTA must work.
+
+Connect:
+
+## PUBLIC
+
+Home
+→ Services
+
+Home
+→ Categories
+
+Home
+→ Login
+
+Home
+→ Signup
+
+Service
+→ Service Details
+
+Provider
+→ Provider Profile
+
+---
+
+# 64. AUTH PROTOTYPE
+
+Signup
+
+→ Role Selection
+
+→ Organizer Signup
+
+→ Buyer Dashboard
+
+OR
+
+Signup
+
+→ Role Selection
+
+→ Provider Signup
+
+→ Seller Dashboard
+
+Login
+
+→ Correct Dashboard
+
+Forgot Password
+
+→ Reset Password
+
+---
+
+# 65. BUYER PROTOTYPE
+
+Dashboard
+
+→ Create Event
+
+Create Event
+
+→ Event Workspace
+
+Event Workspace
+
+→ Find Provider
+
+Find Provider
+
+→ Provider Profile
+
+Provider Profile
+
+→ Request Quote
+
+Request Quote
+
+→ Success
+
+Seller sends quote
+
+→ Requests & Offers
+
+Quote
+
+→ Accept
+
+Accept
+
+→ Booking
+
+Booking
+
+→ Payment
+
+Payment
+
+→ Payment Success
+
+Payment Success
+
+→ Booking Details
+
+Completed Booking
+
+→ Review
+
+Review
+
+→ Review Success
+
+---
+
+# 66. SELLER PROTOTYPE
+
+Seller Dashboard
+
+→ Business Profile
+
+Business Profile
+
+→ Services
+
+Services
+
+→ Add Service
+
+Add Service
+
+→ Success
+
+Dashboard
+
+→ Customer Requests
+
+Request
+
+→ Request Details
+
+Request Details
+
+→ Create Quote
+
+Create Quote
+
+→ Quote Sent
+
+Buyer accepts
+
+→ Booking
+
+Booking
+
+→ Completed
+
+Completed
+
+→ Earnings Updated
+
+---
+
+# 67. ADMIN PROTOTYPE
+
+Admin Login
+
+→ Admin Dashboard
+
+Dashboard
+
+→ Users
+
+Users
+
+→ User Details
+
+Dashboard
+
+→ Sellers
+
+Sellers
+
+→ Verification
+
+Verification
+
+→ Approve / Reject
+
+Dashboard
+
+→ Services
+
+Dashboard
+
+→ Events
+
+Dashboard
+
+→ Bookings
+
+Dashboard
+
+→ Payments
+
+Dashboard
+
+→ Reports
+
+Dashboard
+
+→ Settings
+
+---
+
+# 68. NAVIGATION
+
+Desktop:
+
+Use persistent sidebar for dashboards.
+
+Public website:
+
+Use top navigation.
+
+Mobile:
+
+Use simplified navigation/bottom navigation.
+
+Every page should have an obvious way back.
+
+Do not make users feel lost.
+
+---
+
+# 69. UX MICROINTERACTIONS
+
+Use subtle prototype interactions:
+
+* Button hover
+* Card hover
+* Dropdown
+* Modal
+* Toast
+* Tab switching
+* Stepper progress
+* Calendar selection
+* Quote acceptance confirmation
+* Payment success
+* Review submission
+* Sidebar navigation
+
+Animations must be subtle and professional.
+
+---
+
+# 70. FIGMA ORGANIZATION
+
+Create these Figma pages:
+
+01 Cover
+
+02 Design System
+
+03 Components
+
+04 Public Website
+
+05 Authentication
+
+06 Buyer Portal
+
+07 Seller Portal
+
+08 Admin Portal
+
+09 Mobile
+
+10 Prototype Flows
+
+Organize frames neatly.
+
+Use Auto Layout.
+
+Use components and variants.
+
+Use consistent naming.
+
+Do not leave random/unorganized frames.
+
+---
+
+# 71. SCREEN NAMING
+
+Use clear names such as:
+
+PUBLIC / Home
+
+PUBLIC / Services
+
+PUBLIC / Service Details
+
+AUTH / Login
+
+AUTH / Signup Role
+
+AUTH / Organizer Signup
+
+AUTH / Provider Signup
+
+BUYER / Dashboard
+
+BUYER / Create Event
+
+BUYER / Event Workspace
+
+BUYER / Find Services
+
+BUYER / Provider Details
+
+BUYER / Request Quote
+
+BUYER / Quote Details
+
+BUYER / Booking
+
+BUYER / Payment
+
+SELLER / Dashboard
+
+SELLER / Business Profile
+
+SELLER / Services
+
+SELLER / Customer Requests
+
+SELLER / Create Quote
+
+SELLER / Earnings
+
+ADMIN / Dashboard
+
+ADMIN / Users
+
+ADMIN / Verification
+
+ADMIN / Bookings
+
+ADMIN / Payments
+
+---
+
+# 72. FINAL QUALITY CHECK
+
+Before finishing, verify:
+
+✓ Public website complete
+
+✓ Login complete
+
+✓ Signup complete
+
+✓ Buyer portal complete
+
+✓ Seller portal complete
+
+✓ Admin portal complete
+
+✓ Event creation flow complete
+
+✓ Provider discovery complete
+
+✓ Provider comparison complete
+
+✓ Quote flow complete
+
+✓ Messaging flow complete
+
+✓ Booking flow complete
+
+✓ Payment flow complete
+
+✓ Review flow complete
+
+✓ Seller earnings complete
+
+✓ Admin management complete
+
+✓ Mobile responsive screens included
+
+✓ Empty states included
+
+✓ Loading/error states included
+
+✓ Components are reusable
+
+✓ Auto Layout used
+
+✓ Prototype interactions connected
+
+✓ Navigation works
+
+✓ Major buttons are clickable
+
+✓ No broken prototype links
+
+✓ Demo data is limited
+
+✓ UI is clean and not overcrowded
+
+---
+
+# 73. FINAL PROTOTYPE EXPERIENCE
+
+The final prototype should allow a supervisor/evaluator to start from the EventHub homepage and experience the complete marketplace naturally.
+
+The main demonstration should be:
+
+**Home → Signup → Organizer → Dashboard → Create Event → Event Workspace → Find Service → Provider Profile → Request Quote → Quote → Accept → Booking → Payment → Success → Review**
+
+Also demonstrate:
+
+**Provider Signup → Seller Dashboard → Business Profile → Add Service → Customer Request → Send Quote → Booking → Earnings**
+
+And:
+
+**Admin Login → Admin Dashboard → Manage Users → Verify Seller → Manage Services → Bookings → Payments → Commission → Reports**
+
+Make the prototype feel like a **real working EventHub product**, while keeping the visual design simple enough that users can understand every step without confusion.
+
+Do not add unnecessary features outside the EventHub requirements.
+
+Do not overload the UI with dummy data.
+
+Focus on **clarity + usability + professional UI + complete prototype connectivity**.
