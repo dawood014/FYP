@@ -1,0 +1,15 @@
+import { useEffect, useState } from 'react';
+import { useNavigate, useSearchParams } from 'react-router';
+import { bookingApi, type Booking } from '../../api/client';
+
+export default function Booking() {
+  const nav = useNavigate();
+  const [params] = useSearchParams();
+  const id = Number(params.get('bookingId'));
+  const [booking, setBooking] = useState<Booking | null>(null);
+  const [error, setError] = useState('');
+  useEffect(() => { if (id) bookingApi.get(id).then(setBooking).catch((err) => setError(err instanceof Error ? err.message : 'Could not load booking.')); else setError('Choose a booking to view.'); }, [id]);
+  const provider = booking?.seller?.sellerProfile?.businessName || booking?.seller?.name || 'Service provider';
+  const history: Array<{ to: string; createdAt: string }> = (booking as (Booking & { history?: Array<{ to: string; createdAt: string }> }) | null)?.history || [];
+  return <div className="max-w-2xl mx-auto space-y-6"><div className="flex items-center gap-3"><button onClick={() => nav('/buyer/bookings')} className="text-slate-500 hover:text-[#0f1f3d] text-sm">← Back</button><h1 className="text-2xl font-extrabold text-[#0f1f3d]">Booking Details</h1></div>{error && <p role="alert" className="text-sm text-red-600">{error}</p>}{booking && <div className="bg-white rounded-2xl border border-slate-100 p-6 space-y-5"><div className="flex items-center justify-between pb-4 border-b border-slate-100"><div><div className="text-xs text-slate-400 mb-0.5">Booking ID</div><div className="font-extrabold text-[#0f1f3d] text-lg">#{booking.id}</div></div><span className="bg-emerald-50 text-emerald-700 text-sm font-bold px-4 py-1.5 rounded-full">{booking.status}</span></div><div className="grid grid-cols-2 gap-4">{[['Provider', provider], ['Service', booking.listing?.title || 'Service booking'], ['Event', booking.notes || 'Event details'], ['Date', booking.eventDate ? new Date(booking.eventDate).toLocaleDateString() : 'Not set'], ['Location', booking.listing?.location || 'Not specified'], ['Amount', booking.currency + ' ' + Number(booking.amount).toLocaleString()]].map(([key, value]) => <div key={key}><div className="text-xs text-slate-400 mb-0.5">{key}</div><div className="font-semibold text-[#0f1f3d] text-sm">{value}</div></div>)}</div><div><h3 className="font-bold text-[#0f1f3d] text-sm mb-4">Booking Timeline</h3><div className="space-y-3">{history.map((item, index) => <div key={index} className="flex items-center gap-3"><div className="w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs flex-shrink-0 bg-emerald-500 text-white">✓</div><div className="flex-1 flex items-center justify-between"><span className="text-sm font-semibold text-[#0f1f3d]">{item.to}</span><span className="text-xs text-slate-400">{new Date(item.createdAt).toLocaleString()}</span></div></div>)}</div></div>{['ACCEPTED', 'CONFIRMED'].includes(booking.status) && <button onClick={() => nav('/buyer/payment?bookingId=' + booking.id)} className="w-full bg-[#4f8ef7] hover:bg-[#3a7ae8] text-white font-bold py-3.5 rounded-xl text-sm transition-colors">Proceed to Payment →</button>}</div>}</div>;
+}
